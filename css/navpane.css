@@ -116,28 +116,26 @@ a:focus {
 
 .menu-content {
     display: none;
-    /* background-color: rgba(255, 255, 255, 0.5); */
-    /* 80% opacity white */
+    /* Menu is hidden by default */
     padding: 10px;
     position: absolute;
     top: 50px;
     right: 0;
-    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
-    border-radius: 5px;
-    /* Rounded corners */
-    /* Add this line */
+    margin: 5px;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 16px;
     transition: 0.3s ease-out;
-    backdrop-filter: blur(8px) brightness(1.2);
     -webkit-backdrop-filter: blur(8px) brightness(1.2);
-    text-shadow:
-        0 1px 0 rgba(255, 255, 255, 0.7),
+    /* Apply blur effect */
+    backdrop-filter: blur(8px) brightness(1.2);
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.7),
         1px 0 0 rgba(35, 35, 35, 0.7),
         0 -1px 0 rgba(35, 35, 35, 0.7),
         -1px 0 0 rgba(35, 35, 35, 0.7),
         2px 2px 5px rgba(0, 0, 0, 0.5);
-    color: #fff;
-    font-size: 16px;
-    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.4);
+    /* Optional background */
 
     @media (min-width: 640px) {
         display: none;
