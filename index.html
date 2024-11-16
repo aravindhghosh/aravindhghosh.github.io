@@ -1,6 +1,61 @@
-<html>
-  <title>Sample Page</title>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aravindhghosh</title>
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/navpane.css" />
+  </head>
   <body>
-    Hello World!
+    <header>
+      <h1>I'm Aravindhghosh P, Welcome to My Portfolio</h1>
+    </header>
+    <nav>
+      <a href="#">Aravindhghosh</a>
+      <ul class="list">
+        <li><a href="#">About</a></li>
+        <li><a href="#">Experience/Projects</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <!-- <button class="search">Search</button> -->
+      <button class="menu">Menu</button>
+    </nav>
+    <img
+      src="resources/img/my-banner-3.jpeg"
+      alt="" class="banner-img"
+    />
+    <main>
+      <section id="about">
+        <h2>About Me</h2>
+        <img src="resources/img/my-img.jpg" alt="A description of the image" />
+        <p>This is the about section.</p>
+      </section>
+      <section id="projects">
+        <h2>My Projects</h2>
+        <article>
+          <h3>Project 1</h3>
+          <p>Details about project 1.</p>
+        </article>
+        <article>
+          <h3>Project 2</h3>
+          <p>Details about project 2.</p>
+        </article>
+      </section>
+      <section id="contact">
+        <h2>Contact Me</h2>
+        <form>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" />
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" />
+          <input type="submit" value="Submit" />
+        </form>
+      </section>
+    </main>
+    <footer class="footer">
+      <p>&copy; 2024 Aravindhghosh</p>
+    </footer>
   </body>
 </html>
